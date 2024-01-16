@@ -1,6 +1,6 @@
-// TODO: write your code here
-import sum from './basic';
+import Character from "./Character";
+import getHealthStatus from "./getHealthStatus";
 
-console.log('worked');
+const character = new Character("Маг", 90);
 
-console.log(sum([1, 2]));
+console.log(getHealthStatus(character));
