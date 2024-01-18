@@ -1,7 +1,7 @@
 import getHealthStatus from "../getHealthStatus";
 
 const cases = [
-  ["mage", 90, "healthy1"],
+  ["mage", 90, "healthy"],
   ["warrior", 50, "wounded"],
   ["warlock", 49, "wounded"],
   ["druid", 15, "wounded"],
